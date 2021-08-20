@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <meta charset="UTF-8" />
+    <title>Los Angeles Mountains</title>
+    <link rel="shortcut icon" href="../assets/homeBtn.png">
+    <link rel="stylesheet" href="../css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+    />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,700&family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <div class="homeContainer deblurry">
+      <img class="homeIcon" src="../assets/homeBtn.png" />
+      <a href="javascript:void(0);" class="homeNavLinks burger" id="burger1" onclick="burger1Click()">
+        <i class="fa fa-bars"></i>
+      </a>
+      <a class="homeNavLinks" id="shiftLeft" href="">02. TEAM</a>
+      <a class="homeNavLinks" href="">01. HISTORY</a>
+      <div id="burgerLink1">
+        <div id="list">
+          <a class="dropDownFont" href="">01. HISTORY</a>
+          <a class="dropDownFont" href="">02. TEAM</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="nav">
+      <img class="fullIcon deblurry" src="../assets/full_logo.png" />
+      
+      <a href="javascript:void(0);" class="homeNavLinks burger" id="burger2" onclick="burger2Click()">
+        <i class="fa fa-bars"></i>
+      </a>
+      <a class="homeNavLinks black-margin" id="shiftLeft" href="">02. TEAM</a>
+      <a class="homeNavLinks black-margin" href="">01. HISTORY</a>
+     
+    </div>
+    <div id="burgerLink2">
+      <div id="list">
+        <a class="dropDownFont" href="">01. HISTORY</a>
+        <a class="dropDownFont" href="">02. TEAM</a>
+      </div>
+    </div>
+    <div id="page1Container" class="deblurry">
+      <h3 class="subword">
+        <span class="bigSubWord" id="color01">01.</span>HISTORY
+      </h3>
+      <p id="p01">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ante
+        viverra, rutrum erat rutrum, consectetur mi. Proin at maximus est.
+        Nullam purus ex, iaculis sed erat sed, blandit tincidunt quam. Cras
+        scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis
+        hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec
+        congue.
+      </p>
+    </div>
+    <div id="page1ContainerCarousel" class="deblurry">
+      <div id="slideshow">
+        <div>
+          <img
+            src="../assets/mountainguy.png"
+            width="195px"
+
+            height="130px"
+            alt="Guy in a red jacket looks out from a mountain top"
+          />
+        </div>
+        <div>
+          <img
+            src="../assets/carouselMnt.png"
+            height="130px"
+            alt="A mountain valley"
+          />
+        </div>
+        <div>
+          <img
+            src="../assets/mountainguy.png"
+            height="130px"
+            width="195px"
+            alt="Guy in a red jacket looks out from a mountain top"
+          />
+        </div>
+        
+        <div>
+          <img
+            src="../assets/carouselMnt.png"
+            height="130px"
+            alt="A mountain valley"
+          />
+        </div>
+        <div>
+          <img
+            src="../assets/mountainguy.png"
+            height="130px"
+            width="195px"
+
+            alt="Guy in a red jacket looks out from a mountain top"
+          />
+        </div>
+        <div>
+          <img
+            src="../assets/carouselMnt.png"
+            height="130px"
+            alt="A mountain valley"
+          />
+        </div>
+        
+        </div>
+      </div>
+    </div>
+    
+    <div >
+      <h3 class="subword" id="margin02P">
+        <span class="bigSubWord" id="color02">02.</span>CLIMB
+      </h3>
+
+      <p id="p02">
+        Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida
+        quis hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor
+        nec congue.
+      </p>
+ 
+    </div>
+    <div id="chooseMountain">
+      <p id="mnt1" class="selectedMnt">Mountain 1</p>
+      <p id="mnt2">Mountain 2</p>
+    </div>
+    <div id="display1" class="mtn1 deblurry">
+      <div class="schedule">
+        <h4>SCHEDULE</h4>
+        <table>
+          <tr>
+            <td>28 Nov 2016</td>
+            <td>Vestibulum viverra</td>
+          </tr>
+          <tr>
+            <td>28 Nov 2016</td>
+            <td>Vestibulum viverra</td>
+          </tr>
+          <tr class="blankrow">
+            <td colspan="3"></td>
+          </tr>
+          <tr>
+            <td>28 Nov 2016</td>
+            <td>Vestibulum viverra</td>
+          </tr>
+          <tr class="blankrow">
+            <td colspan="3"></td>
+          </tr>
+          <tr>
+            <td>28 Nov 2016</td>
+            <td>Vestibulum viverra</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div id="display2" class="mtn2 deblurry">
+      <div class="schedule">
+        <h4>SCHEDULE</h4>
+        <table>
+          <tr>
+            <td>28 Nov 2016</td>
+            <td>Vestibulum viverra</td>
+          </tr>
+          <tr>
+            <td>28 Nov 2016</td>
+            <td>Vestibulum viverra</td>
+          </tr>
+          <tr class="blankrow">
+            <td colspan="3"></td>
+          </tr>
+          <tr>
+            <td>28 Nov 2016</td>
+            <td>Vestibulum viverra</td>
+          </tr>
+          <tr class="blankrow">
+            <td colspan="3"></td>
+          </tr>
+          <tr>
+            <td>28 Nov 2016</td>
+            <td>Vestibulum viverra</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <footer>
+      <img class="footerIcon deblurry" src="../assets/footerLogo.png" />
+      <p>COPYRIGHT 2016. ALL RIGHTS RESERVED.</p>
+    </footer>
+    <script src="../js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  </body>
+</html>
